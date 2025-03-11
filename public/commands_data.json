@@ -1,0 +1,257 @@
+[
+    {
+        "command": "whatis",
+        "description": "コマンドの簡単な説明を表示",
+        "options": ""
+    },
+    {
+        "command": "which",
+        "description": "コマンドの保存先を調べる",
+        "options": ""
+    },
+    {
+        "command": "type",
+        "description": "コマンドの保存先を調べる",
+        "options": "-a 全ての保存先を表示"
+    },
+    {
+        "command": "apropos",
+        "description": "コマンドをキーワードで検索",
+        "options": ""
+    },
+    {
+        "command": "find sample -name sample.tsx",
+        "description": "ファイルの検索。フォルダ名:sampleの中のsample.tsxを探す ",
+        "options": "-name ファイル名 -typeタイプ（d: ディレクトリ、f: ファイル、l: シンボリックリンク） -mtime 変更日時（-3で3日前から現在、+3で3日前よりも前） -sizeサイズ"
+    },
+    {
+        "command": "cal",
+        "description": "カレンダーの表示",
+        "options": "例） cal 11 2018"
+    },
+    {
+        "command": "date",
+        "description": "日付の表示",
+        "options": ""
+    },
+    {
+        "command": "pwd",
+        "description": "いまいるディレクトリの表示（print working directory）",
+        "options": ""
+    },
+    {
+        "command": "cd",
+        "description": "ディレクトリ（フォルダ）移動",
+        "options": "cd 移動フォルダ名"
+    },
+    {
+        "command": "ls",
+        "description": "フォルダの内容をリスト形式で表示する",
+        "options": "対象フォルダに移動して、ls"
+    },
+    {
+        "command": "mv",
+        "description": "ファイルを移動",
+        "options": "mv 移動元 移動先"
+    },
+    {
+        "command": "cp",
+        "description": "ファイルやフォルダをコピーする",
+        "options": "cp 移動元 移動先"
+    },
+    {
+        "command": "clear",
+        "description": "消さずに画面を綺麗にする",
+        "options": "-"
+    },
+    {
+        "command": "mkdir",
+        "description": "フォルダを作成する",
+        "options": "mkdir 名"
+    },
+    {
+        "command": "touch",
+        "description": "ファイルを作成する",
+        "options": "touch 名"
+    },
+    {
+        "command": "rmdir",
+        "description": "空のフォルダを削除する",
+        "options": "rmdir 名"
+    },
+    {
+        "command": "rm",
+        "description": "ファイルやフォルダを削除する",
+        "options": "rm 名"
+    },
+    {
+        "command": "pwd",
+        "description": "現在いる位置を表示する",
+        "options": "-"
+    },
+    {
+        "command": "find",
+        "description": "ファイルの検索をする",
+        "options": "find / -name 名"
+    },
+    {
+        "command": "cat",
+        "description": "ファイルの内容を表示する",
+        "options": "cat ファイル名"
+    },
+    {
+        "command": "diff",
+        "description": "ファイルとファイルの内容の違いを表示する",
+        "options": "diff 旧名 新名"
+    },
+    {
+        "command": "grep",
+        "description": "指定した文字列がテキスト内に存在した場合その行を抽出する",
+        "options": "grep \"検索したい文字\" * ファイル名"
+    },
+    {
+        "command": "chmod",
+        "description": "ファイルやフォルダのアクセス権限を変更する",
+        "options": "chmod 権限ファイル名"
+    },
+    {
+        "command": "chown",
+        "description": "ファイルやフォルダのオーナーやグループを変更する",
+        "options": "chown 変更したいユーザー名 変更したいファイル名"
+    },
+    {
+        "command": "history",
+        "description": "コマンドの履歴を表示する",
+        "options": "-"
+    },
+    {
+        "command": "ln",
+        "description": "ファイルやフォルダにリンクを設定する",
+        "options": "ln リンク元　リンク先"
+    },
+    {
+        "command": "man",
+        "description": "コマンドのマニュアルを表示する",
+        "options": "man コマンド"
+    },
+    {
+        "command": "apropos",
+        "description": "manページの内容を検索する",
+        "options": "apropos キーワード"
+    },
+    {
+        "command": "less",
+        "description": "テキストファイルを閲覧する",
+        "options": "less ファイル名"
+    },
+    {
+        "command": "more",
+        "description": "ファイルをページ単位で閲覧する",
+        "options": "more ファイル名"
+    },
+    {
+        "command": "useradd",
+        "description": "ユーザーを新規作成する",
+        "options": ""
+    },
+    {
+        "command": "deluser",
+        "description": "ユーザーを削除する",
+        "options": ""
+    },
+    {
+        "command": "groupadd",
+        "description": "グループを新規作成する",
+        "options": ""
+    },
+    {
+        "command": "groupdel",
+        "description": "グループを削除する",
+        "options": ""
+    },
+    {
+        "command": "chfn",
+        "description": "ユーザー情報を変更する",
+        "options": ""
+    },
+    {
+        "command": "free",
+        "description": "空きメモリや、使用中メモリを表示する",
+        "options": ""
+    },
+    {
+        "command": "last",
+        "description": "最近ログインしたユーザー名を表示する",
+        "options": ""
+    },
+    {
+        "command": "finger",
+        "description": "ユーザー情報を表示する",
+        "options": ""
+    },
+    {
+        "command": "route",
+        "description": "ルーティングの表示や設定を行う",
+        "options": ""
+    },
+    {
+        "command": "ftp",
+        "description": "ファイルをFTPで転送する",
+        "options": ""
+    },
+    {
+        "command": "ssh",
+        "description": "sshでログインする",
+        "options": ""
+    },
+    {
+        "command": "↑ ↓",
+        "description": "コマンド履歴を順に表示",
+        "options": ""
+    },
+    {
+        "command": "tabキー",
+        "description": "フォルダやファイル名の予測変換",
+        "options": ""
+    },
+    {
+        "command": "Ctr(control) + a",
+        "description": "カーソルを先頭に",
+        "options": ""
+    },
+    {
+        "command": "Ctr + e",
+        "description": "カーソルを終端に",
+        "options": ""
+    },
+    {
+        "command": "Ctr + b",
+        "description": "カーソルを一文字戻す",
+        "options": ""
+    },
+    {
+        "command": "Ctr + f",
+        "description": "カーソルを一文字進める",
+        "options": ""
+    },
+    {
+        "command": "Ctr + d",
+        "description": "カーソル位置の文字を消す",
+        "options": ""
+    },
+    {
+        "command": "Ctr + h",
+        "description": "カーソル位置の左側の文字を消す",
+        "options": ""
+    },
+    {
+        "command": "Ctr + w",
+        "description": "カーソル位置の左側の単語を消す",
+        "options": ""
+    },
+    {
+        "command": "Ctr + r",
+        "description": "コマンド履歴の中で検索する",
+        "options": ""
+    }
+]
